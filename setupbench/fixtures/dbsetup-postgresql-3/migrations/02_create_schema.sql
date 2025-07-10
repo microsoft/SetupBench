@@ -1,0 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username TEXT NOT NULL UNIQUE,
+    email TEXT NOT NULL
+);
+
+ALTER TABLE users OWNER TO old_user;

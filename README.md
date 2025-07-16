@@ -1,4 +1,5 @@
 # Setup Bench
+This is the official repository for **[SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments](https://arxiv.org/abs/2507.09063)**.
 
 ## Instructions per Task
 

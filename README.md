@@ -27,6 +27,8 @@ Use the `instance_id` to look for a folder of the same name under `setupbench/fi
 
 ### Dependency Resolution
 
+The `repo_url` and `base_commit` are always provided. The `repo_url` is always an open sourced GitHub repository which should be cloned into `/testbed`/ of the `base_image` at the specified `base_commit`.
+
 ### Repo Setup
 
 The `repo_url` is always provided, and some also provide the `base_commit`. The `repo_url` is always an open sourced GitHub repository which should be cloned into `/testbed`/ of the image.

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments"
+message: "If you use this dataset or code, please cite the accompanying paper."
+type: dataset
+authors:
+  - given-names: Avi
+    family-names: Arora
+  - given-names: Jinu
+    family-names: Jang
+  - given-names: Roshanak Zilouchian
+    family-names: Moghaddam
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2507.09063
+  - type: url
+    value: https://arxiv.org/abs/2507.09063
+repository-code: https://github.com/microsoft/SetupBench
+license: MIT
+keywords:
+  - benchmarking
+  - agents
+  - software-engineering
+  - environment-setup
+  - reproducibility
+version: 0.1.0
+date-released: 2025-08-15
+citation-alternative-identifiers:
+  - type: arXiv
+    value: 2507.09063

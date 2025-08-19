@@ -1,6 +1,6 @@
 # SetupBench
 
-Official dataset repository for **[SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments](https://arxiv.org/abs/2507.09063)**.
+Official dataset repository for **SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments**.
 
 SetupBench isolates a critical but under-evaluated capability of software engineering agents: bootstrapping a fresh development environment from a bare OS image. Agents must install system & language toolchains, resolve dependency conflicts, initialize databases, and configure background / multi-service workloads using only natural language task descriptions plus minimal scaffolding.
 
@@ -69,13 +69,10 @@ If you use SetupBench, please cite:
 ```
 @article{setupbench2025,
 	title={SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments},
-	author={Arora, Avi and Jang, Jinu and Zilouchian Moghaddam, Roshanak},
-	journal={arXiv preprint arXiv:2507.09063},
+	author={Anonymous Authors},
 	year={2025}
 }
 ```
-
-You can also use the `CITATION.cff` file for GitHub's citation panel.
 
 ## Contributing
 See `CONTRIBUTING.md` for guidelines, schema, and validation checklist.
